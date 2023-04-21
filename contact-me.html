@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+
+<body>
+    <h1>My Contact Details</h1>
+    <p>London Queen's Avenue 12b</p>
+    <p>002344757475</p>
+    <p>myemail@email.com</p>
+    <hr>
+    <form action="mailto:myemail@gmail.com" method="post" enctype="text/plain">
+        <table>
+            <tr>
+                <td><label>Your Name</label></td>
+                <td colspan="2"><input type="text" name="yourName"><br></td>
+            </tr>
+            <tr>
+                <td><label>Passcode</label></td>
+                <td colspan="2"><input type="password" name="yourPW"></td>
+            </tr>
+            <tr>
+                <td><label>Where did you find me?</label></td>
+                <td><input type="checkbox"><label>Linkedin</label></td>
+                <td><input type="checkbox"><label>Github</label></td>
+                <td><input type="checkbox"><label>Facebook</label></td>
+                <td><input type="checkbox"><label>YouTube</label></td>
+                <td><input type="checkbox"><label>Instagram</label></td>
+            </tr>
+            <tr>
+                <td><label>What is your favorite color?</label></td>
+                <td><input type="color" value="#f6b73c">Jacket</td>
+                <td><input type="color" value="#e66465">Pants</td>
+            </tr>
+            <tr>
+                <td><label>How old are you?</label></td>
+                <td><input type="range" value="10"></td>
+            </tr>
+            <tr>
+                <td><label>Which country do you live in?</label></td>
+                <td><input type="radio"><label>US</label></td>
+                <td><input type="radio"><label>UK</label></td>
+                <td><input type="radio"><label>Germany</label></td>
+                <td><input type="radio"><label>Italy</label></td>
+            </tr>
+            <tr>
+                <td>Your Message:</td>
+            </tr>
+            <tr>
+                <td colspan="2"><textarea name="yourMessage" rows="5" cols="50"></textarea></td>
+            </tr>
+            <tr>
+                <td><input type="submit"></td>
+            </tr>
+        </table>
+
+
+    </form>
+</body>
+
+</html>
